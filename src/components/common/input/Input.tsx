@@ -1,19 +1,23 @@
 import React from 'react';
 
 import styles from "./Input.module.css"
+import { Props } from "./interface";
 
-type InputProps = {
-    title:string
-}
-
-
-export function Input({title}:InputProps) {
+export const Input = ({label, error, ...rest}: Props) => {
     return (
-        <div className={styles.inputWrapper}>
-            <span className={styles.title}>{title}</span>
-            <input className={styles.input}/>
+        <div className={styles.wrapper}>
+            <label htmlFor={label} className={styles.text}>
+                {label}
+            </label>
+            <input
+                className={styles.input}
+                {...rest}
+            />
+            <p className={styles.error}>{error}</p>
         </div>
     );
 }
+
+
 
 
