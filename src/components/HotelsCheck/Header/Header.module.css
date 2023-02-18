@@ -1,0 +1,13 @@
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:32px;
+    padding-right:32px;
+
+}
+
+.headerTitle {
+    color: #424242;
+}

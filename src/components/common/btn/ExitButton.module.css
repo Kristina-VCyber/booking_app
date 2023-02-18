@@ -1,0 +1,20 @@
+.exitBtnWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #41522E;
+    border:none;
+    background:none;
+    cursor: pointer;
+    width: 80px;
+    padding: 0;
+}
+
+.exitBtnIcon{
+
+    width: 18px;
+    height: 18px;
+    background: url(../../../assets/icons/logout.png) no-repeat;
+    background-size: contain;
+}

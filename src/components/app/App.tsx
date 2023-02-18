@@ -1,16 +1,20 @@
 import React from 'react';
 import { Login } from "../auth/Login";
-import styles from "./App.module.css"
+import { Route, Routes } from "react-router-dom";
+import { HotelsCheck } from "../hotelsCheck/HotelsCheck";
 
 function App() {
     return (
-        <div className={styles.wrapper}>
-            <div className={styles.wrapperOverlay}>
-            <div className={styles.form}>
-                <Login/>
-            </div>
-            </div>
+        // <Routes>
+        //     <Route path="/" element={<Login/>}/>
+        //     <Route path="hotels" element={<HotelsCheck/>}/>
+        // </Routes>
+        <div>
+            {/*<Login/>*/}
+            <HotelsCheck/>
         </div>
+
+
     );
 }
 
