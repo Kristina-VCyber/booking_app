@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./ExitButton.module.css"
+import styles from "./ExitBtn.module.css"
 
-export const ExitButton = () => {
+export const ExitBtn = () => {
     return (
         <button type="button"
                 className={styles.exitBtnWrapper}>
-            Выйти
+            Выход
             <div className={styles.exitBtnIcon}>
             <span />
             </div>

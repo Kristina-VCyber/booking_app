@@ -1,13 +1,13 @@
 import React from 'react';
-import { ExitButton } from "../../common/btn/ExitButton";
+import { ExitBtn } from "../../common/btn/ExitBtn";
 import styles from "./Header.module.css"
 
 
 export const Header = () => {
     return (
         <div className={styles.headerWrapper}>
-           <h1 className={styles.headerTitle}>Simple Hotel Check</h1>
-            <ExitButton/>
+           <h2 className={styles.headerTitle}>Simple Hotel Check</h2>
+            <ExitBtn/>
         </div>
     )
 }

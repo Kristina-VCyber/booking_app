@@ -1,4 +1,4 @@
-.hotelsWrapper {
+.hotelsPageWrapper{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -7,8 +7,21 @@
     background: #E5E5E5;
 
 }
+.hotelsContainer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px;
+}
+.hotelsCardsWrapper{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .unitedLeftBlock {
     max-width: 568px;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
 }

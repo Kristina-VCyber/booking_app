@@ -1,6 +1,6 @@
 
 .locationFormWrapper {
-    max-width: 360px;
+    width: 360px;
     box-shadow: 0 4px 33px rgba(0, 0, 0, 0.04);
     background: white;
     border-radius: 16px;

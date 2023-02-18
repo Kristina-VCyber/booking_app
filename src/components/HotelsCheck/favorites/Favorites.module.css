@@ -1,0 +1,28 @@
+
+.favoritesWrapper {
+    width: 360px;
+    height: 472px;
+    margin-top: 24px;
+
+    background: white;
+    box-shadow: 0 4px 33px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+.favoritesContent{
+    padding: 32px 18px 32px 32px;
+}
+.favoritesTitle {
+    color: #424242;
+    font-weight: 500;
+    font-size: 24px;
+}
+.favoritesFilter{
+    width:168px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+
