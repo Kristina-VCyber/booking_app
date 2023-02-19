@@ -1,0 +1,35 @@
+
+
+.iconWrapper {
+    position: relative;
+    background: url("../../assets/icons/home_background.png");
+    width: 64px;
+    height: 64px;
+
+}
+.homeRoofIcon{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+}
+
+.homeIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.dateWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 177px ;
+    position: relative;
+}
+.dash {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
