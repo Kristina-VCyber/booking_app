@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../../components/header/Header";
+import { Header } from "../../components";
 import styles from "./HotelsCheck.module.css"
 import { Location } from "./location/Location";
 import { Favorites } from "./favorites/Favorites";
@@ -7,16 +7,14 @@ import { DatabaseCard } from "./databaseCard/DatabaseCard";
 
 export const HotelsCheck = () => {
     return (
-        <div className={styles.hotelsPageWrapper}>
+        <div className={styles.container}>
             <Header/>
-            <div className={styles.hotelsContainer}>
-                <div className={styles.hotelsCardsWrapper}>
-            <div className={styles.unitedLeftBlock}>
-                <Location/>
-                <Favorites/>
-            </div>
-            <DatabaseCard/>
-                </div>
+            <div className={styles.content}>
+                <aside className={styles.unitedLeftBlock}>
+                    <Location/>
+                    <Favorites/>
+                </aside>
+                <DatabaseCard/>
             </div>
         </div>
     )
