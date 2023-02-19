@@ -33,13 +33,6 @@
     z-index: 10;
 }
 
-@media screen and (max-width: 493px) {
-    .formWrapper {
-        max-width: 300px;
-        padding: 22px;
-    }
-}
-
 
 .container {
     width: 100%;
@@ -56,4 +49,21 @@
 
 .btn {
     margin-top: 32px;
+}
+
+
+@media screen and (max-width: 420px) {
+    .formWrapper {
+        max-width: 300px;
+        padding: 24px;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        margin-top: 24px;
+    }
+
 }
