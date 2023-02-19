@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Favorites.module.css";
-import { FilterBtn } from "../../common/btn/FilterBtn";
-import { DatabaseList } from "../../common/databaseList/DatabaseList";
+import { FilterBtn } from "../../../components/btn/FilterBtn";
+import { DatabaseList } from "../../../components/databaseList";
 
 
 

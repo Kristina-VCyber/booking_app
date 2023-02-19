@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExitBtn } from "../../common/btn/ExitBtn";
+import { ExitBtn } from "../../../components/btn/ExitBtn";
 import styles from "./Header.module.css"
 
 

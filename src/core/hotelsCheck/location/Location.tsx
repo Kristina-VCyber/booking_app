@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Location.module.css"
-import { Input } from "../../common/input/Input";
-import { Button } from "../../common/btn/Button";
+import { Button, Input } from "../../../components";
+
 
 
 export const Location = () => {

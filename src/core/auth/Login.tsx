@@ -1,8 +1,7 @@
 import React from 'react';
-import { Button } from "../common/btn/Button";
-import { Input } from "../common/input/Input";
 import styles from "./Login.module.css"
 import { AuthPageBackground } from "./AuthPageBackground";
+import { Button, Input } from "../../components";
 
 
 export function Login() {
