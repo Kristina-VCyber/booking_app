@@ -5,7 +5,7 @@ import styles from "./DatabaseList.module.css"
 export const DatabaseList = () => {
     return (
         <div className={styles.databaseListWrapper}>
-            {/*<DatabaseListItem/>*/}
+            <DatabaseListItem/>
         </div>
     );
 }
