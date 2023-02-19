@@ -9,7 +9,7 @@
     width: 256px;
     display: flex;
     justify-content: space-between;
-    background: url("../../../assets/icons/arrow.png") no-repeat;
+    background: url("../../../assets/icons/arrow.svg") no-repeat;
 
 }
 .icon{
