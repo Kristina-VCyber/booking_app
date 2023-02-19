@@ -6,8 +6,10 @@ import { DatabaseList } from "../../../components/databaseList/DatabaseList";
 export const DatabaseCard = () => {
     return (
         <div className={styles.cardWrapper}>
+            <div className={styles.cardContainer}>
             <DatabaseHeader/>
             <DatabaseList/>
+            </div>
         </div>
     )
 }

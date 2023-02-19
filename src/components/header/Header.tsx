@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from "../index";
+import { Button } from "../btn";
 import styles from "./Header.module.css"
 import { Logout } from "../../assets";
 import { useNavigate } from "react-router-dom";

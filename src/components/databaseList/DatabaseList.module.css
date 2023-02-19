@@ -1,12 +1,9 @@
 .databaseListWrapper {
-    /*display: grid;*/
-    /*align-items: center;*/
-    /*grid-template-rows: 0.5fr 2fr 0.5fr ;*/
-    /*grid-template-columns: 0.5fr 2fr ;*/
     flex-grow: 1;
     min-width: 260px;
-    padding: 16px 16px 16px 0;
-    margin-right: 14px;
-    border-bottom: 1px solid #C4C4C4;
+    min-height: 100px;
+    /*padding: 16px 16px 16px 0;*/
+    /*margin-right: 14px;*/
+    margin-top: 40px;
 
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./DatabaseListItem.module.css"
 import { BasicRating } from "./Rating";
-import { Dash, Home, HomeRoof } from "../../assets";
+import { Baseline, Dash, Heart, Home, HomeRoof } from "../../assets";
 
 export const DatabaseListItem = () => {
     return (
@@ -18,9 +18,15 @@ export const DatabaseListItem = () => {
                     <p> 1 день</p>
                 </div>
                 <BasicRating/>
-
             </div>
-
+            <div className={styles.priceWrapper}>
+                <Heart className={styles.heart}/>
+                <div className={styles.priceContainer}>
+                    <p className={styles.priceTitle}>Price:</p>
+                    <span className={styles.priceValue}>23 000 ₽</span>
+                </div>
+            </div>
+            <Baseline className={styles.baseline}/>
         </div>
     )
 }

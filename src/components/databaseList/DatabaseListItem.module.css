@@ -1,4 +1,10 @@
+.itemWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
 
+}
 
 .iconWrapper {
     position: relative;
@@ -7,29 +13,70 @@
     height: 64px;
 
 }
-.homeRoofIcon{
+
+.homeRoofIcon {
     position: absolute;
     left: 50%;
     top: 32%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .homeIcon {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+.ratingWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
 .dateWrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 177px ;
+    max-width: 177px;
     position: relative;
 }
+
 .dash {
     position: absolute;
     left: 60%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+
+.baseline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 584px;
+
+}
+
+.priceWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    min-width: 110px;
+}
+
+.priceTitle {
+    font-weight: 300;
+    font-size: 11px;
+    color: #878787;
+}
+.priceValue{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: right;
+    color: #424242;
 }

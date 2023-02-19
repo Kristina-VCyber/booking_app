@@ -1,11 +1,13 @@
 import React from 'react';
-import { AppRoutes, paths } from "../routes";
-import { useLocation } from "react-router-dom";
+import { AppRoutes } from "../routes";
+import styles from './App.module.css'
 
 function App() {
-
     return (
-        <AppRoutes/>
+        <div className={styles.container}>
+            <AppRoutes/>
+        </div>
+
     );
 }
 
