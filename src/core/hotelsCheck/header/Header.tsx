@@ -1,13 +1,25 @@
 import React from 'react';
-import { ExitBtn } from "../../../components/btn/ExitBtn";
+import { Button } from "../../../components";
 import styles from "./Header.module.css"
+import { Logout } from "../../../assets";
+import { useNavigate } from "react-router-dom";
+import { paths } from "../../routes";
 
 
 export const Header = () => {
+    const navigate = useNavigate()
+    const onClickHandler = () => {
+        localStorage.clear()
+        navigate(paths.main(), {replace: true})
+    }
+
     return (
-        <div className={styles.headerWrapper}>
-           <h2 className={styles.headerTitle}>Simple Hotel Check</h2>
-            <ExitBtn/>
-        </div>
+        <header className={styles.container}>
+            <h1 className={styles.title}>Simple Hotel Check</h1>
+            <Button appearance='logout' className={styles.btn} icon={<Logout/>}
+                    onClick={onClickHandler}
+
+            >Выход</Button>
+        </header>
     )
 }

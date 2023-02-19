@@ -15,7 +15,7 @@ export const Location = () => {
                         <Input label="Локация" type='text' />
                         <Input label="Дата заселения" type='date'/>
                         <Input label="Количество дней" type='number'/>
-                        <Button type="submit">Найти</Button>
+                        <Button appearance="primary" type="submit">Найти</Button>
                     </form>
                 </div>
 

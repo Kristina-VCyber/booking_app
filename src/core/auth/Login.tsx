@@ -26,7 +26,7 @@ type Inputs = {
 
 export function Login() {
     const navigate = useNavigate();
-    const {register, handleSubmit, trigger, formState: {errors}} = useForm<Inputs>(
+    const { register, handleSubmit, trigger, formState: { errors } } = useForm<Inputs>(
         {
             mode: "onSubmit",
             reValidateMode: "onSubmit",
@@ -36,13 +36,13 @@ export function Login() {
 
     const onSubmit: SubmitHandler<Inputs> = () => {
         localStorage.setItem(SIGNED_IN_KEY, SIGNED_IN_VALUE)
-        navigate(paths.hotels(), {replace: true})
+        navigate(paths.hotels(), { replace: true })
     };
 
 
     useEffect(() => {
         if (localStorage.getItem(SIGNED_IN_KEY) === SIGNED_IN_VALUE) {
-            navigate("/hotels", {replace: true});
+            navigate("/hotels", { replace: true });
         }
     }, []);
 
@@ -73,7 +73,7 @@ export function Login() {
                         }
                     })}
                            error={errors.password?.message}/>
-                    <Button type="submit" className={styles.btn}>Войти</Button>
+                    <Button appearance="primary" type="submit" className={styles.btn}>Войти</Button>
                 </form>
             </div>
         </div>

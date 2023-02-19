@@ -1,18 +1,14 @@
-.hotelsPageWrapper{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #E5E5E5;
+.hotelsPageWrapper {
 
+    background: #E5E5E5;
 }
+
 .hotelsContainer {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 32px;
 }
-.hotelsCardsWrapper{
+
+.hotelsCardsWrapper {
 
     display: flex;
     justify-content: space-between;
