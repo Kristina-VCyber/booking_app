@@ -1,8 +1,18 @@
 .cardHeaderWrapper {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
-.cardTitleWrapper{
+
+.cardTitleWrapper {
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+    background: url("../../../assets/icons/vector.png") no-repeat;
+
+}
+
+.icon {
 
 }
