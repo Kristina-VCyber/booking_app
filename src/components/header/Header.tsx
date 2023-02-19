@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button } from "../../../components";
+import { Button } from "../index";
 import styles from "./Header.module.css"
-import { Logout } from "../../../assets";
+import { Logout } from "../../assets";
 import { useNavigate } from "react-router-dom";
-import { paths } from "../../routes";
+import { paths } from "../../core/routes";
 
 
 export const Header = () => {

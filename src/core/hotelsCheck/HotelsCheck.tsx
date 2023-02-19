@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "./header/Header";
+import { Header } from "../../components/header/Header";
 import styles from "./HotelsCheck.module.css"
 import { Location } from "./location/Location";
 import { Favorites } from "./favorites/Favorites";
