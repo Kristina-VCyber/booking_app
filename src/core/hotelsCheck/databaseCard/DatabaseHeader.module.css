@@ -9,10 +9,9 @@
     width: 256px;
     display: flex;
     justify-content: space-between;
+
+}
+.icon{
     background: url("../../../assets/icons/vector.png") no-repeat;
-
 }
 
-.icon {
-
-}

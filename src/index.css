@@ -1,30 +1,95 @@
+
+:root {
+    --white: #FFFFFF;
+    --black: #424242;
+    --error: #EB1717;
+    --btn: linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+    --btn-hover: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+    --btn-active: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
 body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
+    position: relative;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: #E5E5E5;
+    min-height: 100vh;
+}
+
+#root {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    font-family: inherit;
+    line-height: normal;
+    background-color: transparent;
+
+}
+
+input {
+    color: inherit;
+    border: 0;
+    outline: 0;
+}
+
+input:focus {
+    outline: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/src/assets/fonts/roboto-v29-cyrillic-300.woff') format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/src/assets/fonts/roboto-v29-cyrillic-300.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/roboto-v29-cyrillic-regular.woff') format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/assets/fonts/roboto-v29-cyrillic-regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/src/assets/fonts/roboto-v29-cyrillic-500.woff') format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/src/assets/fonts/roboto-v29-cyrillic-500.woff') format('woff');
 }

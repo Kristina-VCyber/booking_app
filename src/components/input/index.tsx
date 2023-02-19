@@ -10,6 +10,7 @@ export const Input : React.FC<Props> = forwardRef( ({ label, error, ...rest }, r
                 {label}
             </label>
             <input
+                ref={ref}
                 className={styles.input}
                 {...rest}
             />

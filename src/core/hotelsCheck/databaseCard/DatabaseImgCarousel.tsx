@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./DatabaseCard.module.css";
 
-export const DatabaseImgScroll = () => {
+export const DatabaseImgCarousel = () => {
     return (
-        <div className={styles.scrollWrapper}>
+        <div className={styles.imgWrapper}>
 
         </div>
     )
 }
+
