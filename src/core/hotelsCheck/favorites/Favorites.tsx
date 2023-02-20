@@ -19,7 +19,6 @@ export const Favorites = () => {
                         <ArrowDown className={styles.priceArrowDown}/>
                     </Button>
                 </div>
-
             </div>
 
         </div>
