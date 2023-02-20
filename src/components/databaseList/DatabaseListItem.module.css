@@ -1,4 +1,6 @@
 .itemWrapper {
+    width: 100%;
+    max-width: var(--col-max-width);
     position: relative;
     display: flex;
     justify-content: space-between;

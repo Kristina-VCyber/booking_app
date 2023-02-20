@@ -1,4 +1,6 @@
 .cardHeaderWrapper {
+    width: 100%;
+    max-width: var(--col-max-width);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -6,7 +8,7 @@
 
 
 .cardTitleWrapper {
-    min-width: 332px;
+    max-width: 332px;
     display: flex;
     justify-content: flex-start;
     font-style: normal;
