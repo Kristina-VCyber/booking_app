@@ -5,6 +5,8 @@
     min-height: 100px;
     padding: 16px 16px 16px 0;
     margin-right: 14px;
-    margin-top: 40px;
+    scroll-padding-bottom: 50%;
+}
+.scrollbar {
 
 }

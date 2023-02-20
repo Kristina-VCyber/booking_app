@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Favorites.module.css";
-import { Button, DatabaseList } from "../../../components";
+import { Button } from "../../../components";
 import { ArrowDown, ArrowUp } from "../../../assets";
 
 
