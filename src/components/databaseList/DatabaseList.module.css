@@ -1,4 +1,5 @@
 .databaseListWrapper {
+    justify-content: center;
     flex-grow: 1;
     min-width: 260px;
     min-height: 100px;

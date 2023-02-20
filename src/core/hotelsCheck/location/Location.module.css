@@ -10,8 +10,17 @@
 .locationForm {
     width: 360px;
     padding: 32px;
+
 }
 
+.locationForm div:not(:first-child) {
+    margin-top: 16px;
+}
+
+
+.btn {
+    margin-top: 32px;
+}
 
 @media screen and (max-width: 834px) {
 

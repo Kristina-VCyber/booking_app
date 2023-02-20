@@ -33,3 +33,17 @@
     font-style: normal;
     font-size: 32px;
 }
+
+.favoritesResult {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 28px;
+}
+
+.resultNumber {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #41522E;
+}

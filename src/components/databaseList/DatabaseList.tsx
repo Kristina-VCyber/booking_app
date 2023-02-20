@@ -11,9 +11,13 @@ export const DatabaseList = () => {
     useScrollbar(listWrapper);
     return (
         <div className={styles.scrollbar} ref={listWrapper}>
+            <li>
             <div className={styles.databaseListWrapper}>
                 <DatabaseListItem/>
+                <DatabaseListItem/>
+                <DatabaseListItem/>
             </div>
+            </li>
         </div>
     );
 }

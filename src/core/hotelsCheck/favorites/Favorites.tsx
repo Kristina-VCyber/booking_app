@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Favorites.module.css";
 import { Button, DatabaseList } from "../../../components";
+import { ArrowDown, ArrowUp } from "../../../assets";
 
 
 export const Favorites = () => {
@@ -9,8 +10,14 @@ export const Favorites = () => {
             <div className={styles.favoritesContent}>
                 <h2 className={styles.favoritesTitle}>Избранное</h2>
                 <div className={styles.favoritesFilterWrapper}>
-                    <Button appearance='filter'> Рейтинг</Button>
-                    <Button appearance='filter'> Цена </Button>
+                    <Button appearance='filter' className={styles.ratingBtn}> Рейтинг
+                        <ArrowUp className={styles.ratingArrowUp}/>
+                        <ArrowDown className={styles.ratingArrowDown}/>
+                    </Button>
+                    <Button appearance='filter' className={styles.priceBtn}> Цена
+                        <ArrowUp className={styles.priceArrowUp}/>
+                        <ArrowDown className={styles.priceArrowDown}/>
+                    </Button>
                 </div>
                 <DatabaseList/>
             </div>

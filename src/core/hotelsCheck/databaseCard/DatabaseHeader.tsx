@@ -6,11 +6,11 @@ export const DatabaseHeader = () => {
     return (
         <div className={styles.cardHeaderWrapper}>
             <div className={styles.cardTitleWrapper}>
-                <h2>Отели</h2>
+                <h2 className={styles.cardTitle}>Отели</h2>
                 <Arrow className={styles.arrowIcon}/>
                 <h2>Москва</h2>
             </div>
-            <time>18.02.2023</time>
+            <time className={styles.date}>18.02.2023</time>
         </div>
     )
 }
