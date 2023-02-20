@@ -22,7 +22,7 @@ export const Carousel = ({data}: Props) => {
                     disableOnInteraction: false,
                 }}
             >
-                {data.map(img => <SwiperSlide><img src={img} alt={img} /></SwiperSlide>)}
+                {data.map((img, idx) => <SwiperSlide key={idx}><img src={img} alt={img}/></SwiperSlide>)}
             </Swiper>
         </div>
     );

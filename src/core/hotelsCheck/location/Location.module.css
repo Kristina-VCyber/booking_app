@@ -13,13 +13,21 @@
 
 }
 
-.locationForm div:not(:first-child) {
-    margin-top: 16px;
+/*.locationForm div:not(:first-child) {*/
+/*    margin-top: 16px;*/
+/*}*/
+.blockItem{
+margin-bottom: 20px;
 }
 
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
 
 .btn {
-    margin-top: 32px;
+    margin-top: 12px;
 }
 
 @media screen and (max-width: 834px) {

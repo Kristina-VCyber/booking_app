@@ -13,10 +13,18 @@ export const Location = () => {
 
         <div className={styles.locationFormWrapper}>
             <form onSubmit={onSubmit} className={styles.locationForm} noValidate>
-                <Input label="Локация" type='text'/>
-                <Input label="Дата заселения" type='date'/>
-                {/*<MuiPicker/>*/}
-                <Input label="Количество дней" type='number'/>
+                <div className={styles.blockItem}>
+                <h4>Локация</h4>
+                <Input type='text'/>
+                </div>
+                <div className={styles.blockItem} >
+                <h4>Дата заселения</h4>
+                <MuiPicker />
+                </div>
+                <div className={styles.blockItem} >
+                <h4>Количество дней</h4>
+                <Input type='number'/>
+                </div>
                 <Button appearance="primary" type="submit" className={styles.btn}>Найти</Button>
 
             </form>
