@@ -36,14 +36,13 @@
 
 .filter {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 4px 8px;
-    width: 89px;
-    height: 28px;
     background: #FFFFFF;
     border: 1px solid #41522E;
     border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 8px;
+
 }
 
 

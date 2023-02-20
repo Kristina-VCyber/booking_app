@@ -18,15 +18,62 @@
     font-size: 24px;
 }
 
-.favoritesFilter {
-    width: 168px;
+.favoritesFilterWrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 4px;
-    margin-right: 8px;
+    justify-content: flex-start;
+    padding-top: 32px;
+
+
 }
 
-.ratingBtn{
+span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.ratingBtn {
     position: relative;
+    width: 89px;
+
+}
+
+.ratingArrowUp {
+    position: absolute;
+    left: 75%;
+    right: -22.14%;
+    top: 16.67%;
+    bottom: 53.87%;
+    cursor: pointer;
+}
+
+.ratingArrowDown {
+    position: absolute;
+    left: 75%;
+    right: -22.14%;
+    top: 54.29%;
+    bottom: 16.25%;
+    cursor: pointer;
+}
+.priceBtn {
+    width: 71px;
+position: relative;
+}
+
+.priceArrowUp {
+    position: absolute;
+    left: 70%;
+    right: -30%;
+    top: 16.67%;
+    bottom: 53.87%;
+    cursor: pointer;
+}
+.priceArrowDown{
+    position: absolute;
+    left: 70%;
+    right: -30%;
+    top: 54.29%;
+    bottom: 16.25%;
+    cursor: pointer;
 }
