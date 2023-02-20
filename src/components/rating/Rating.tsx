@@ -1,8 +1,8 @@
-import { Rating, Typography } from "@mui/material";
+import { Rating as MuiRating, Typography } from "@mui/material";
 import * as React from 'react';
 import Box from '@mui/material/Box';
 
-export function BasicRating() {
+export const Rating = () => {
     const [value, setValue] = React.useState<number | null>(4);
     return (
         <Box
@@ -11,7 +11,7 @@ export function BasicRating() {
             }}
         >
             <Typography component="legend"></Typography>
-            <Rating name="read-only" value={value} readOnly/>
+            <MuiRating name="read-only" value={value} readOnly/>
         </Box>
     );
 }

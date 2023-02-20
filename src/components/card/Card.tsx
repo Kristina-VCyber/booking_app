@@ -1,17 +1,33 @@
-import React, { useRef, useState } from 'react';
-import styles from "./DatabaseListItem.module.css"
-import { BasicRating } from "./Rating";
+import React, { ReactNode } from 'react';
+import styles from "./Card.module.css"
 import { Baseline, Dash, Heart, Home, HomeRoof } from "../../assets";
+import { Rating } from "../rating/Rating";
+
+type CardSize = "full" | "short";
 
 
+const HomeIcon = () => {
+    return (
+        <div className={styles.iconWrapper}>
+            <HomeRoof className={styles.homeRoofIcon}/>
+            <Home className={styles.homeIcon}/>
+        </div>)
 
-export const DatabaseListItem = () => {
+}
+
+const CARD_MAP: Record<CardSize, null | ReactNode> = {
+    full: <HomeIcon/>,
+    short: null
+}
+
+interface Props {
+    size?: CardSize
+}
+
+export const Card = ({ size = "full" }: Props) => {
     return (
         <div className={styles.itemWrapper}>
-            <div className={styles.iconWrapper}>
-                <HomeRoof className={styles.homeRoofIcon}/>
-                <Home className={styles.homeIcon}/>
-            </div>
+            {CARD_MAP[size]}
             <div className={styles.ratingWrapper}>
                 <h3>Moscow Marriott Grand Hotel</h3>
                 <div className={styles.dateWrapper}>
@@ -19,7 +35,7 @@ export const DatabaseListItem = () => {
                     <Dash className={styles.dash}/>
                     <p> 1 день</p>
                 </div>
-                <BasicRating/>
+                <Rating/>
             </div>
             <div className={styles.priceWrapper}>
                 <Heart className={styles.heart}/>

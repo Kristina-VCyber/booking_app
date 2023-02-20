@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatabaseListItem } from "./DatabaseListItem";
+import { Card } from "../card/Card";
 import styles from "./DatabaseList.module.css"
 import { List } from "@mui/material";
 
@@ -8,11 +8,11 @@ export const DatabaseList = () => {
     return (
         <List style={{ maxHeight: 529, overflow: 'scroll' }}>
             <div className={styles.databaseListWrapper}>
-                <DatabaseListItem/>
-                <DatabaseListItem/>
-                <DatabaseListItem/>
-                <DatabaseListItem/>
-                <DatabaseListItem/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
         </List>
     )

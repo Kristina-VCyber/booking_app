@@ -6,6 +6,7 @@ import { Favorites } from "./favorites/Favorites";
 import { DatabaseCard } from "./databaseCard/DatabaseCard";
 
 export const HotelsCheck = () => {
+
     return (
         <div className={styles.container}>
             <Header/>

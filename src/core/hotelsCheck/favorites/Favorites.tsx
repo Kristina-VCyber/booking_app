@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Favorites.module.css";
 import { Button } from "../../../components";
 import { ArrowDown, ArrowUp } from "../../../assets";
+import { DatabaseList } from "../../../components/databaseList/DatabaseList";
 
 
 export const Favorites = () => {
@@ -18,6 +19,9 @@ export const Favorites = () => {
                         <ArrowUp className={styles.priceArrowUp}/>
                         <ArrowDown className={styles.priceArrowDown}/>
                     </Button>
+                    <div className={styles.favoritesList}>
+                        <DatabaseList/>
+                    </div>
                 </div>
             </div>
 

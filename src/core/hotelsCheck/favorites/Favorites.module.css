@@ -6,6 +6,9 @@
     background: white;
     box-shadow: 0 4px 33px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
+    display:flex;
+    flex-direction: column;
+
 }
 
 .favoritesContent {
@@ -76,4 +79,7 @@ position: relative;
     top: 54.29%;
     bottom: 16.25%;
     cursor: pointer;
+}
+.favoritesList{
+max-width: 296px;
 }
