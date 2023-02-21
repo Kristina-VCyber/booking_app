@@ -74,6 +74,34 @@
     align-items: baseline;
     min-width: 110px;
     padding-bottom: 22px;
+    position: relative;
+}
+.btnWrapper {
+    cursor: pointer;
+}
+.greyHeart {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.defaultHeart {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.defaultHeart:hover {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.redHeart {
+    position: absolute;
+    right: 1px;
+    top: 20px;
+    z-index: 15;
 }
 
 .priceTitle {
