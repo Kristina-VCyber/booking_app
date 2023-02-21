@@ -1,7 +1,9 @@
-export { Button} from "./btn"
-export { Input } from "./input"
-export { DatabaseList } from "./databaseList"
-export { Header } from "./header/Header"
-export {Card} from "./card/Card"
-export {Rating} from "./rating/Rating"
-
+export { Button } from "./btn";
+export { Input } from "./input";
+export { CardList } from "./databaseList";
+export { Header } from "./header";
+export { Card } from "./card";
+export { Rating } from "./rating";
+export { Carousel } from "./carousel";
+export { DatePicker } from "./datePicker";
+export { Loader } from "./loader";

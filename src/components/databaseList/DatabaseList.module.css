@@ -3,10 +3,9 @@
     flex-grow: 1;
     min-width: 260px;
     min-height: 100px;
-    padding: 16px 16px 16px 0;
-    margin-right: 14px;
     scroll-padding-bottom: 50%;
 }
+
 .scrollbar {
 
 }

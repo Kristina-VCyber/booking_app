@@ -8,13 +8,7 @@
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.10",
     "@mui/x-date-pickers": "^5.0.19",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.12",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.10",
+    "@redux-saga/core": "^1.2.2",
     "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
     "dayjs": "^1.11.7",
@@ -27,15 +21,27 @@
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "redux-saga": "^1.2.2",
     "swiper": "^9.0.0",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.12",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "prettier": "2.6.2",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./src/**/**.{ts,tsx,js,jsx,json}\""
   },
   "eslintConfig": {
     "extends": [

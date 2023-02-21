@@ -1,3 +1,2 @@
-
-export {paths} from "./paths"
-export {AppRoutes} from "./AppRoutes"
+export { paths } from "./paths";
+export { AppRoutes } from "./AppRoutes";

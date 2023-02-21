@@ -1,6 +1,4 @@
-
 export const paths = {
-    main: () => "/",
-    hotels:() => "hotels"
-}
-
+  main: () => "/",
+  booking: () => "booking",
+};

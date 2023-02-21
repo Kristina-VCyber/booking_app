@@ -3,9 +3,9 @@
     max-width: var(--col-max-width);
     position: relative;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 16px;
-    padding-top: 19px ;
+    padding-top: 19px;
+    justify-content: space-between;
 
 }
 
@@ -30,12 +30,15 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.ratingWrapper{
+
+.mainBlockWrapper {
+    margin-left: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
+
 .dateWrapper {
     display: flex;
     justify-content: space-between;
@@ -78,9 +81,15 @@
     font-size: 11px;
     color: #878787;
 }
-.priceValue{
+
+.priceValue {
     font-weight: 400;
     font-size: 17px;
     text-align: right;
     color: #424242;
 }
+
+.container {
+    display: flex;
+}
+
