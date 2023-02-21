@@ -36,7 +36,7 @@ export const Card = ({ size = "full", hotel, onFavoriteToggle }: Props) => {
         <div className={styles.container}>
           {CARD_MAP[size]}
           <div className={styles.mainBlockWrapper}>
-            <h3>{hotelName}</h3>
+            <h3 className={styles.hotelTitle}>{hotelName}</h3>
             <div className={styles.dateWrapper}>
               <time>{checkIn}</time>
               <Dash className={styles.dash}/>

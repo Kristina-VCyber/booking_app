@@ -5,6 +5,7 @@ import { CardList, Carousel, Loader } from "../../../components";
 import { IMAGES } from "./constants";
 import { useSelector } from "react-redux";
 import {
+  getBookingData,
   getCurrentLocation,
   getFavorites,
   getHotels,
@@ -18,10 +19,13 @@ export const Hotels = () => {
   const isLoading = useSelector(getIsLoading);
   const hotels = useSelector(getHotels);
   const pluralize = declOfNumber(amount, ["отель", "отеля", "отелей"]);
+  const date = useSelector(getBookingData).checkIn
+
+
   return (
     <section className={styles.cardWrapper}>
       <div className={styles.cardContainer}>
-        <HeaderBlock title={location} />
+        <HeaderBlock title={location}  date={date} />
         <Carousel data={IMAGES} />
         <div className={styles.favoritesResult}>
           Добавлено в Избранное:
