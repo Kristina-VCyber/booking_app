@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px;
+
 }
 
 .title {
@@ -16,6 +17,4 @@
     font-weight: 400;
     font-size: 16px;
 }
-/*.btnTitle {*/
-/*    */
-/*}*/
+
