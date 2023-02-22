@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 import { Arrow } from "../../../assets";
-import { getFullDate } from "../../../shared/formDate";
+import { getFullDate } from "../../../shared";
 
 interface Props {
     title: string;
