@@ -25,7 +25,7 @@ export const CardList = ({
   };
   return (
     <List
-      style={{ maxHeight, overflow: "scroll" }}
+      style={{ maxHeight,  overflow: "scroll", overflowX: "hidden"}}
       className={classNames(className, styles.databaseListWrapper)}
     >
       {hotels.map((hotel) => (

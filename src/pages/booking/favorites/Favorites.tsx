@@ -46,6 +46,7 @@ export const Favorites = () => {
             className={styles.favoritesList}
             hotels={favorites}
             maxHeight={300}
+
             cardSize="short"
           />
         </div>

@@ -42,6 +42,7 @@
     padding: 0;
 }
 
+
 .filter {
     display: flex;
     align-items: center;
@@ -50,6 +51,14 @@
     border-radius: 4px;
     padding: 4px 8px;
 
+}
+.filter:active {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+.filter:disabled {
+    background: #FFFFFF;
+   opacity: 5;
 }
 
 
