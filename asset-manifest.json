@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/booking_app/static/css/main.5b7a6484.css",
+    "main.js": "/booking_app/static/js/main.191c7f53.js",
+    "static/media/bacground-car.webp": "/booking_app/static/media/bacground-car.a8aced09e765284bb6cb.webp",
+    "static/media/straightroadimg.webp": "/booking_app/static/media/straightroadimg.f96f86c838bd562221b7.webp",
+    "static/media/roboto-v29-cyrillic-500.woff": "/booking_app/static/media/roboto-v29-cyrillic-500.085d1b4698b08a1cf7fd.woff",
+    "static/media/roboto-v29-cyrillic-regular.woff": "/booking_app/static/media/roboto-v29-cyrillic-regular.90fc8764675b01c9cc05.woff",
+    "static/media/roboto-v29-cyrillic-300.woff": "/booking_app/static/media/roboto-v29-cyrillic-300.38763b30fc533c4821dc.woff",
+    "static/media/notFound.webp": "/booking_app/static/media/notFound.839eefd1cf3450936689.webp",
+    "static/media/uturnimg.webp": "/booking_app/static/media/uturnimg.23ac2d9de5d2a70898b8.webp",
+    "static/media/houseimg.webp": "/booking_app/static/media/houseimg.27966d698184a8ac77ae.webp",
+    "static/media/forestimg.webp": "/booking_app/static/media/forestimg.13c01487f20ebd15309b.webp",
+    "static/media/home_roof.svg": "/booking_app/static/media/home_roof.cce36c1a1a192a6516c9d1d278a0cd9a.svg",
+    "static/media/home.svg": "/booking_app/static/media/home.ce276b560c718da2e39ff7c802c2695e.svg",
+    "static/media/heart_grey.svg": "/booking_app/static/media/heart_grey.ae5224777fb9525e2fbf88df8d17d026.svg",
+    "static/media/heart.svg": "/booking_app/static/media/heart.12e0baf1a8017f8b5e41334e6897f733.svg",
+    "static/media/heart_red.svg": "/booking_app/static/media/heart_red.9eeeed1414023ae91e0f73832a97cfca.svg",
+    "index.html": "/booking_app/index.html",
+    "static/media/logout.svg": "/booking_app/static/media/logout.6541d62259e47627326550b1557c3866.svg",
+    "static/media/arrow_down.svg": "/booking_app/static/media/arrow_down.130a0583e33d66634f2a10359b2a3d15.svg",
+    "static/media/arrow.svg": "/booking_app/static/media/arrow.ecfc16f7a5f0685dc81942c312c3f763.svg",
+    "static/media/arrow_up.svg": "/booking_app/static/media/arrow_up.2ccadb4bb0b4b27154e54566a0576885.svg",
+    "static/media/baseline.svg": "/booking_app/static/media/baseline.485bc5e8c41ee3558140e2ba294ddcba.svg",
+    "static/media/dash.svg": "/booking_app/static/media/dash.5091d45c88f3cc6b6a61fb0f40a5e3ef.svg",
+    "main.5b7a6484.css.map": "/booking_app/static/css/main.5b7a6484.css.map",
+    "main.191c7f53.js.map": "/booking_app/static/js/main.191c7f53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7a6484.css",
+    "static/js/main.191c7f53.js"
+  ]
+}
